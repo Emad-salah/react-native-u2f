@@ -36,7 +36,7 @@ public class U2fModule extends ReactContextBaseJavaModule {
 
     private final ReactApplicationContext reactContext;
     private static final String TAG = "ReactNativeU2fModule";
-    private static final int REQUEST_CODE_REGISTER = 0;
+    private static final int REQUEST_CODE_REGISTER = 5;
     private static final int REQUEST_CODE_SIGN = 1;
     private static final String E_SIGN_CANCELLED = "E_SIGN_CANCELLED";
     private static final String E_REGISTER_CANCELLED = "E_REGISTER_CANCELLED";
